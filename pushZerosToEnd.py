@@ -14,6 +14,6 @@ def pushZeroToEnd(arr,n):
         ans[k] = arr[j]
         j+=1
         k+=1
-
+    print("hey")
     return ans
 print(pushZeroToEnd([0,1,2,0,4],5))
